@@ -1,0 +1,43 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.thumb1{
+	background: url(/assets/thumb1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.thumb2{
+	background: url(/assets/thumb2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.thumb3{
+	background: url(/assets/thumb3.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.noBorder td{
+	border: none !important;
+	width: 2%;
+}
+.noBorder{
+	border: none !important;
+}
+.brand{
+	max-width: 60px;
+}
+.impact{
+	font-family: impact;
+}
+.big-text{
+	font-size: 150%;
+}
+.navbar{
+	height: 80px;
+}
