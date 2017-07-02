@@ -13,7 +13,7 @@
 //= require tether
 //= require jquery
 //= require jquery_ujs
-//= require rails-ujs
-//= require bootstrap
 //= require turbolinks
+//= require bootstrap-sprockets
+//= require rails-ujs
 //= require_tree .

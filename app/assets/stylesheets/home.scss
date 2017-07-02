@@ -35,3 +35,7 @@
 .big-text{
 	font-size: 150%;
 }
+/*fixes navbar jumpiness*/
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
