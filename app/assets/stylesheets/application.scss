@@ -11,8 +11,45 @@
  * It is generally better to create a new file per style scope.
  *
  *= require style
- *= require home
  *= require_tree .
  *= require_self
  */
 
+.thumb1{
+	background: url(thumb1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.thumb2{
+	background: url(thumb2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.thumb3{
+	background: url(thumb3.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.noBorder td{
+	border: none !important;
+	width: 2%;
+}
+.noBorder{
+	border: none !important;
+}
+.impact{
+	font-family: impact;
+}
+.big-text{
+	font-size: 150%;
+}
+/*fixes navbar jumpiness*/
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
