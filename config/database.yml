@@ -24,6 +24,7 @@ default: &default
 development:
   <<: *default
   database: cgp_development
+  host: localhost
   username: postgres
   password: n00
 
@@ -60,6 +61,7 @@ development:
 test:
   <<: *default
   database: cgp_test
+  host: localhost
   username: postgres
   password: n00
 
