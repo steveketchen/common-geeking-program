@@ -5,6 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'rails-assets-tether'
 gem 'rake'
 gem 'rails_12factor', group: :production
 gem 'bootstrap-sass'
