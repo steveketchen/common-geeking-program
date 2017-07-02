@@ -1,15 +1,14 @@
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/index">
         <%= image_tag("logo_cgp.png", :class => "logo_brand") %>
       </a>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" href="/index">Home </a>
-          <a class="nav-item nav-link" href="/episodes">Episodes</a>
-          <a class="nav-item nav-link active" href="/about">About <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link <%= 'active' if current_page?("/episodes") %>" href="/episodes">Episodes</a>
+          <a class="nav-item nav-link <%= 'active' if current_page?("/about") %>" href="/about">About <span class="sr-only">(current)</span></a>
         </div>
       </div>
     </nav>
