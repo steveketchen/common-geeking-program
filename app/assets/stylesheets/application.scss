@@ -37,7 +37,9 @@ a:hover, a:focus {
     color: inherit;
     text-decoration: underline;
 }
-
+body{
+	font-family: 'HelveticaNeue-CondensedBlack';
+}
 /*START tile background css*/
 .tile-austin{
 	background: url(tile/tile_austin.png);
