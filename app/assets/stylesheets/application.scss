@@ -47,7 +47,9 @@ body{
 	height: 600px;
 }
 .tail{
-	height:100px;
+	height: auto;
+	width: 100%;
+	overflow: none;
 	background-color: #333;
 	color: #888;
 }
