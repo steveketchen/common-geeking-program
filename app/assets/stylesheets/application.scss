@@ -14,31 +14,103 @@
  *= require_tree .
  *= require_self
  */
+@import "font-awesome-sprockets";
+@import "font-awesome";
 
-.thumb1{
-	background: url(thumb1.png);
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: inherit;
+    text-decoration: underline;
+}
+
+/*START tile background css*/
+.tile-austin{
+	background: url(tile/tile_austin.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	height:400px;
 }
-.thumb2{
-	background: url(thumb2.png);
+.tile-chowder{
+	background: url(tile/tile_chowder.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	height:400px;
 }
-.thumb3{
-	background: url(thumb3.png);
+.tile-city{
+	background: url(tile/tile_city.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.tile-colin{
+	background: url(tile/tile_colin.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.tile-eddy{
+	background: url(tile/tile_eddy.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.tile-jeff{
+	background: url(tile/tile_jeff.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.tile-keenan{
+	background: url(tile/tile_keenan.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.tile-laura{
+	background: url(tile/tile_laura.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.tile-matt{
+	background: url(tile/tile_matt.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.tile-mountain{
+	background: url(tile/tile_mountain.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	max-width:100%;
+	height:400px;
+}
+.tile-pat{
+	background: url(tile/tile_pat.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	height:400px;
 }
 .noBorder td{
+	width: 50%;
+	font-size: 125%;
+}
+.noBorder td{
 	border: none !important;
-	width: 2%;
 }
 .noBorder{
 	border: none !important;
@@ -55,4 +127,7 @@
 /*fixes navbar jumpiness*/
 .navbar-collapse.collapse.in {
   display: block!important;
+}
+.spacer{
+	height:20px;
 }

@@ -1,0 +1,2 @@
+class EpTileController < ApplicationController
+end

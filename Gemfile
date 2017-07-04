@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'font-awesome-sass'
+gem 'glyphicons-rails', '~> 0.1.2'
 gem 'soundcloud'
 gem 'rails-assets-tether'
 gem 'rake'
