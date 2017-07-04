@@ -38,7 +38,13 @@ a:hover, a:focus {
     text-decoration: underline;
 }
 body{
-	font-family: 'HelveticaNeue-CondensedBlack';
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica";
+}
+.cgp-banner{
+	background: url(banner_home.jpg) no-repeat center center;
+	width: 100%;
+	background-size: cover;
+	height: 600px;
 }
 /*START tile background css*/
 .tile-austin{
@@ -135,7 +141,8 @@ body{
 	font-size: 150%;
 }
 .logo-brand{
-	width: 60px;
+	width: 40px;
+	height: auto;
 }
 /*fixes navbar jumpiness*/
 .navbar-collapse.collapse.in {
