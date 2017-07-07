@@ -1,12 +1,10 @@
-    <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse">
+  <nav class="navbar navbar-toggleable-xl flex-nowrap flex-row navbar-inverse bg-inverse">
+    <a class="navbar-brand" href="/index">
+      <%= image_tag("logo_cgp.png", :class => "logo-brand") %>
+    </a> 
+    <div class="navbar-nav">
+      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/episodes") %>" href="/episodes">EPISODES</a>
+      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/about") %>" href="/about">ABOUT</a>
+    </div>
 
-      <a class="navbar-brand" href="/index">
-        <%= image_tag("logo_cgp.png", :class => "logo-brand") %>
-      </a>
-      
-        <div class="navbar-nav">
-          <a class="nav-item big-text nav-link <%= 'active' if current_page?("/episodes") %>" href="/episodes">EPISODES</a>
-          <a class="nav-item big-text nav-link <%= 'active' if current_page?("/about") %>" href="/about">ABOUT</a>
-        </div>
-
-    </nav>
+  </nav>

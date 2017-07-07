@@ -39,6 +39,9 @@ a:hover, a:focus {
 }
 body{
 	font-family: "HelveticaNeue-CondensedBold", "Helvetica";
+	color: #EEE;
+	text-shadow: 3px 3px 8px #333; 	
+
 }
 .cgp-banner{
 	background: url(banner_home.jpg) no-repeat center center;
@@ -145,9 +148,9 @@ body{
 	border: none !important;
 }
 .impact{
-	font-family: "HelveticaNeue-CondensedBold";
+	font-family: "Impact", "HelveticaNeue-CondensedBold";
 	color: #EEE;
-	text-shadow: 3px 3px 15px #000; 	
+	text-shadow: 3px 3px 8px #333; 	
 }
 .big-text{
 	font-size: 150%;

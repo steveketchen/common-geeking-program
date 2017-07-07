@@ -9,7 +9,6 @@ gem 'font-awesome-sass'
 gem 'glyphicons-rails', '~> 0.1.2'
 gem 'soundcloud'
 gem 'rails-assets-tether'
-gem 'rake'
 gem 'rails_12factor', group: :production
 gem 'bootstrap-sass'
 gem 'bootstrap', '~> 4.0.0.alpha6'
