@@ -3,8 +3,13 @@
       <%= image_tag("logo_cgp.png", :class => "logo-brand") %>
     </a> 
     <div class="navbar-nav">
-      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/episodes") %>" href="/episodes">EPISODES</a>
-      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/about") %>" href="/about">ABOUT</a>
+      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/episodes") %>" href="/episodes">
+
+      <%= image_tag("episodes_button.png", :class => "custom-nav") %>
+      </a>
+      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/about") %>" href="/about">
+		<%= image_tag("info_button.png", :class => "custom-nav") %>
+      </a>
     </div>
 
   </nav>
