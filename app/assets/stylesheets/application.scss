@@ -46,86 +46,88 @@ body{
 	background-size: cover;
 	height: 600px;
 }
+.dark-bg{
+	background-color: #333;
+}
 .tail{
 	height: auto;
 	width: 100%;
-	overflow: none;
 	background-color: #333;
 	color: #888;
 }
 /*START tile background css*/
 .tile-austin{
-	background: url(tile/tile_austin.png);
+	background: url(tile/tile_austin.png) no-repeat center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	background-size:cover;
 }
 .tile-chowder{
-	background: url(tile/tile_chowder.png);
+	background: url(tile/tile_chowder.png) no-repeat center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	background-size:cover;
 }
 .tile-city{
-	background: url(tile/tile_city.png);
+	background: url(tile/tile_city.png) no-repeat center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	background-size:cover;
 }
 .tile-colin{
-	background: url(tile/tile_colin.png);
+	background: url(tile/tile_colin.png) no-repeat center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	background-size:cover;
 }
 .tile-eddy{
-	background: url(tile/tile_eddy.png);
+	background: url(tile/tile_eddy.png) no-repeat center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	background-size:cover;
 }
 .tile-jeff{
-	background: url(tile/tile_jeff.png);
+	background: url(tile/tile_jeff.png) no-repeat center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	background-size:cover;
 }
 .tile-keenan{
-	background: url(tile/tile_keenan.png);
+	background: url(tile/tile_keenan.png) no-repeat center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	background-size:cover;
 }
 .tile-laura{
-	background: url(tile/tile_laura.png);
+	background: url(tile/tile_laura.png) no-repeat center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	background-size:cover;
 }
 .tile-matt{
-	background: url(tile/tile_matt.png);
+	background: url(tile/tile_matt.png) no-repeat center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	background-size:cover;
 }
 .tile-mountain{
-	background: url(tile/tile_mountain.png);
+	background: url(tile/tile_mountain.png) no-repeat center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
 	background-size:cover;
 }
 .tile-pat{
-	background: url(tile/tile_pat.png);
+	background: url(tile/tile_pat.png) no-repeat center center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	max-width:100%;
