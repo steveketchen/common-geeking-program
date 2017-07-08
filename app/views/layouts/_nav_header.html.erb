@@ -1,4 +1,4 @@
-  <nav class="navbar navbar-toggleable-xl flex-nowrap flex-row navbar-inverse bg-inverse">
+  <nav class="navbar navbar-toggleable-xl flex-nowrap flex-row navbar-inverse bg-faded">
     <a class="navbar-brand" href="/index">
       <%= image_tag("logo_cgp.png", :class => "logo-brand") %>
     </a> 
@@ -7,7 +7,10 @@
 
       <%= image_tag("episodes_button.png", :class => "custom-nav") %>
       </a>
-      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/about") %>" href="/about">
+      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/cast") %>" href="/cast">
+		<%= image_tag("cast_button.png", :class => "custom-nav") %>
+      </a>
+      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/info") %>" href="/info">
 		<%= image_tag("info_button.png", :class => "custom-nav") %>
       </a>
     </div>

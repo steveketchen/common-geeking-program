@@ -50,7 +50,7 @@ body{
 	height: 600px;
 }
 .custom-nav{
-	height: 80;
+	height: 80px;
 }
 .dark-bg{
 	background-color: #333;
@@ -63,54 +63,55 @@ body{
 }
 /*START tile background css*/
 .ep-tile{
-height: 500px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	height: auto;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
 }
 .tile-austin{
-	background: url(tile/tile_austin.png) no-repeat center center;
+	background: url(tile/tile_austin.png) no-repeat right center;
 	background-size: cover;
 }
 .tile-chowder{
-	background: url(tile/tile_chowder.png) no-repeat center center;
+	background: url(tile/tile_chowder.png) no-repeat right center;
 	background-size: cover;
 }
 .tile-city{
-	background: url(tile/tile_city.png) no-repeat center center;
+	background: url(tile/tile_city.png) no-repeat right center;
 	background-size: cover;
 }
 .tile-colin{
-	background: url(tile/tile_colin.png) no-repeat center center;
+	background: url(tile/tile_colin.png) no-repeat right center;
 	background-size: cover;
 }
 .tile-eddy{
-	background: url(tile/tile_eddy.png) no-repeat center center;
+	background: url(tile/tile_eddy.png) no-repeat right center;
 	background-size: cover;
 }
 .tile-jeff{
-	background: url(tile/tile_jeff.png) no-repeat center center;
+	background: url(tile/tile_jeff.png) no-repeat right center;
 	background-size: cover;
 }
 .tile-keenan{
-	background: url(tile/tile_keenan.png) no-repeat center center;
+	background: url(tile/tile_keenan.png) no-repeat right center;
 	background-size: cover;
 }
 .tile-laura{
-	background: url(tile/tile_laura.png) no-repeat center center;
+	background: url(tile/tile_laura.png) no-repeat right center;
 	background-size: cover;
 }
 .tile-matt{
-	background: url(tile/tile_matt.png) no-repeat center center;
+	background: url(tile/tile_matt.png) no-repeat right center;
 	background-size: cover;
 }
 .tile-mountain{
-	background: url(tile/tile_mountain.png) no-repeat center center;
+	background: url(tile/tile_mountain.png) no-repeat left center;
 	background-size: cover;
 }
 .tile-pat{
-	background: url(tile/tile_pat.png) no-repeat center center;
+	background: url(tile/tile_pat.png) no-repeat right center;
 	background-size: cover;
 }
 /*END tile background CSS*/
@@ -133,7 +134,7 @@ height: 500px;
 	font-size: 150%;
 }
 .logo-brand{
-	height: 100px;
+	height: 80px;
 }
 /*fixes navbar jumpiness*/
 .navbar-collapse.collapse.in {
