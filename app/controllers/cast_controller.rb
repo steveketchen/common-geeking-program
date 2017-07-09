@@ -1,2 +1,0 @@
-class CastController < ApplicationController
-end
