@@ -79,12 +79,17 @@ body{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;	
-	background-color: #FFF;
 }
 .cast-tile{
 	height: 400px;
 	width: 400px;
 	border: solid 10px #FFF;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+.home-tile{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
