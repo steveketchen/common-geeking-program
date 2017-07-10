@@ -63,16 +63,18 @@ body{
 }
 /*START tile background css*/
 .ep-tile{
+	border: solid 10px #FFF;
 	height: auto;
-	width: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;	
+	background-color: #FFF;
 }
 .cast-tile{
 	height: 400px;
 	width: 400px;
+	border: solid 10px #FFF;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
