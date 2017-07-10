@@ -151,3 +151,8 @@ body{
 .spacer{
 	height:20px;
 }
+.vbottom{
+    position: relative;
+    top: 100%;
+    transform: translateY(-100%); 
+}
