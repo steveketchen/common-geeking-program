@@ -39,12 +39,22 @@ a:hover, a:focus {
 }
 body{
 	font-family: "HelveticaNeue-CondensedBold", "Helvetica";
-	color: #EEE;
+	color: #FEFEFE;
 	text-shadow: 3px 3px 8px #333; 	
-
 }
-.cgp-banner{
+.cgp-banner-home{
 	background: url(banner_home.jpg) no-repeat center center;
+}
+.cgp-banner-episodes{
+	background: url(banner_episodes.jpg) no-repeat center center;
+}
+.cgp-banner-cast{
+	background: url(banner_cast.jpg) no-repeat center center;
+}
+.cgp-banner-info{
+	background: url(banner_info.jpg) no-repeat center center;
+}
+.cgp-hero{
 	width: 100%;
 	background-size: cover;
 	height: 600px;
