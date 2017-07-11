@@ -28,7 +28,7 @@ a:hover, a:focus {
 body{
 	font-family: "HelveticaNeue-CondensedBold", "Helvetica";
 	color: #FEFEFE;
-	text-shadow: 3px 3px 8px #333; 	
+	text-shadow: 3px 3px 10px #000; 	
 }
 .cgp-banner-home{
 	background: url(banner_home.jpg) no-repeat center center;
@@ -61,6 +61,7 @@ body{
 }
 /*START tile background css*/
 .ep-tile{
+	font-family: "Helvetica";
 	border: solid 10px #FFF;
 	height: auto;
 	-webkit-background-size: cover;
@@ -78,6 +79,7 @@ body{
 	background-size: cover;	
 }
 .home-tile{
+	font-family: "Helvetica";
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
