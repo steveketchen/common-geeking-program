@@ -85,6 +85,10 @@ body{
 	-o-background-size: cover;
 	background-size: cover;	
 }
+.navstripe{
+	overflow: visible;
+	white-space: nowrap;
+}
 .tile-austin{
 	background: url(tile/tile_austin.png) no-repeat right center;
 	background-size: cover;
