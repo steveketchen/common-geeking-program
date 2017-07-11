@@ -1,17 +1,34 @@
-  <nav class="navbar navbar-toggleable-xl flex-nowrap flex-row navbar-inverse bg-inverse">
+  <nav class="navbar navbar-toggleable-xl flex-row navbar-inverse bg-inverse">
     <a class="navbar-brand" href="/index">
         <%= image_tag("logo_cgp.png", :class => "logo-brand") %>
     </a> 
     <div class="navbar-nav">
-      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/episodes") %>" href="/episodes">
-        <%= image_tag("episodes_button.png", :class => "custom-nav") %>
-      </a>
-      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/cast") %>" href="/cast">
-    		<%= image_tag("cast_button.png", :class => "custom-nav") %>
-      </a>
-      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/info") %>" href="/info">
-    		<%= image_tag("info_button.png", :class => "custom-nav") %>
-      </a>
+        <a class="nav-item big-text nav-link <%= 'active' if current_page?("/episodes") %>" href="/episodes">
+          <%= image_tag("episodes_button.png", :class => "custom-nav") %>
+        </a>
+        <a class="nav-item big-text nav-link <%= 'active' if current_page?("/cast") %>" href="/cast">
+      		<%= image_tag("cast_button.png", :class => "custom-nav") %>
+        </a>
+        <a class="nav-item big-text nav-link <%= 'active' if current_page?("/info") %>" href="/info">
+          <%= image_tag("info_button.png", :class => "custom-nav") %>
+        </a>
+    </div>
+    <div class="navbar-collapse collapse flex-row justify-content-end">
+        <a class="nav-item big-text nav-link" href="/info">
+          <%= image_tag("listen_button.png", :class => "custom-nav") %>
+        </a>
+        <a class="nav-link" href="#">
+          <%= image_tag("social/apple.png", :alt => "iTunes", :class => "social") %>
+        </a>
+        <a class="nav-link" href="#">
+          <%= image_tag("social/soundcloud.png", :alt => "Soundcloud", :class => "social") %>
+        </a>
+        <a class="nav-link" href="#">
+          <%= image_tag("social/googleplay.png", :alt => "Google Play", :class => "social") %>
+        </a>
+        <a class="nav-link" href="#">
+          <%= image_tag("social/stitcher.png", :alt => "Stitcher", :class => "social") %>
+        </a>
     </div>
 
   </nav>
