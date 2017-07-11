@@ -62,24 +62,19 @@ body{
 /*START tile background css*/
 .ep-tile{
 	font-family: "Helvetica";
-	border: solid 10px #FFF;
 	height: auto;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;	
+	border: solid 10px #FFF;
+	margin: 0px;
+	overflow: hidden;
 }
 .cast-tile{
 	height: 400px;
 	width: 400px;
 	border: solid 10px #FFF;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;	
-}
-.home-tile{
-	font-family: "Helvetica";
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
