@@ -6,11 +6,11 @@
       <a class="nav-item big-text nav-link <%= 'active' if current_page?("/episodes") %>" href="/episodes">
         <%= image_tag("episodes_button.png", :class => "custom-nav") %>
       </a>
-      <a class="nav-item big-text nav-link <%= 'active' if current_page?("/cast") %>" href="/cast">
-    		<%= image_tag("cast_button.png", :class => "custom-nav") %>
+      <a class="hidden nav-item big-text nav-link <%= 'active' if current_page?("/cast") %>" href="/cast">
+    		<%= image_tag("cast_button.png", :class => "custom-nav hidden-xs-up") %>
       </a>
       <a class="nav-item big-text nav-link <%= 'active' if current_page?("/info") %>" href="/info">
-        <%= image_tag("info_button.png", :class => "custom-nav") %>
+        <%= image_tag("info_button.png", :class => "custom-nav hidden-xs-up") %>
       </a>
   </div>
   <div class="navbar-collapse collapse flex-row justify-content-end">
