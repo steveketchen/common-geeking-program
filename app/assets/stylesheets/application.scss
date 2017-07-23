@@ -36,6 +36,7 @@ body{
 }
 .cgp-banner-home{
 	background: url(banner_home.jpg) no-repeat center center;
+	max-width: 100%;
 }
 .cgp-banner-episodes{
 	background: url(banner_episodes.jpg) no-repeat center center;
@@ -49,7 +50,7 @@ body{
 .cgp-hero{
 	width: 100%;
 	background-size: cover;
-	height: 600px;
+	height: 50%;
 }
 .custom-nav{
 	height: 50px;
@@ -91,6 +92,9 @@ body{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;	
+}
+.listen-tile{
+	width: 100px;
 }
 .navstripe{
 	overflow: visible;
