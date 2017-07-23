@@ -37,6 +37,7 @@ body{
 .cgp-banner-home{
 	background: url(banner_home.jpg) no-repeat center center;
 	max-width: 100%;
+	min-height: 60%;
 }
 .cgp-banner-episodes{
 	background: url(banner_episodes.jpg) no-repeat center center;
@@ -164,7 +165,7 @@ body{
 	font-size: 150%;
 }
 .logo-brand{
-	height: 80px;
+	height: 70px;
 }
 /*fixes navbar jumpiness*/
 .navbar-collapse.collapse.in {
