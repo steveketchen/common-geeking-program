@@ -104,6 +104,9 @@ body{
 	overflow: visible;
 	white-space: nowrap;
 }
+span{
+	text-shadow: none;
+}
 .tile-austin{
 	background: url(tile/tile_austin.png) no-repeat right center;
 	background-size: cover;
